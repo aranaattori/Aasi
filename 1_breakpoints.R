@@ -21,7 +21,6 @@ library(patchwork)
 library(segmented)
 library(lubridate)
 
-setwd("//ad.helsinki.fi/home/b/blombean/Desktop/AASI/Aineisto/Talvidata_2023/Valmiit/1_Analyysi")
 df1 <- read.csv("data.csv", sep=";")
 df1<- df1 %>% 
   dplyr::select(date,Eptnil,Pipnat,Myosp,Type,Site,temperature)
